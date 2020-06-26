@@ -17,6 +17,8 @@
 		596B8BEF24A39BE3007DA0FF /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596B8BEE24A39BE3007DA0FF /* Note.swift */; };
 		596B8BF224A39BFB007DA0FF /* LocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596B8BF124A39BFB007DA0FF /* LocalStorage.swift */; };
 		596B8BF424A39C0B007DA0FF /* CloudStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596B8BF324A39C0B007DA0FF /* CloudStorage.swift */; };
+		597219DD24A61819004BBDB9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 597219DC24A61819004BBDB9 /* GoogleService-Info.plist */; };
+		597219DF24A618C9004BBDB9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597219DE24A618C9004BBDB9 /* SecondViewController.swift */; };
 		CA9E943715855CE0E19FC40E /* Pods_IOS_MyNoteBook_week10.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C76BB31C5D7CEBF21C571E /* Pods_IOS_MyNoteBook_week10.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +37,8 @@
 		596B8BEE24A39BE3007DA0FF /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		596B8BF124A39BFB007DA0FF /* LocalStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorage.swift; sourceTree = "<group>"; };
 		596B8BF324A39C0B007DA0FF /* CloudStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudStorage.swift; sourceTree = "<group>"; };
+		597219DC24A61819004BBDB9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		597219DE24A618C9004BBDB9 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = "/Users/rasmusknothnielsen/Git/KEA/semester4/IOS/IOS-MyNoteBook-week10/IOS-MyNoteBook-week10/SecondViewController.swift"; sourceTree = "<absolute>"; };
 		C5249D2BCD5D3CA52DAF1CE7 /* Pods-IOS-MyNoteBook-week10.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS-MyNoteBook-week10.release.xcconfig"; path = "Target Support Files/Pods-IOS-MyNoteBook-week10/Pods-IOS-MyNoteBook-week10.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,9 +90,11 @@
 				596B8BCF24A39A6E007DA0FF /* AppDelegate.swift */,
 				596B8BD124A39A6E007DA0FF /* SceneDelegate.swift */,
 				596B8BD324A39A6E007DA0FF /* ViewController.swift */,
+				597219DE24A618C9004BBDB9 /* SecondViewController.swift */,
 				596B8BD524A39A6E007DA0FF /* Main.storyboard */,
 				596B8BD824A39A6E007DA0FF /* Assets.xcassets */,
 				596B8BDA24A39A6E007DA0FF /* LaunchScreen.storyboard */,
+				597219DC24A61819004BBDB9 /* GoogleService-Info.plist */,
 				596B8BDD24A39A6E007DA0FF /* Info.plist */,
 			);
 			path = "IOS-MyNoteBook-week10";
@@ -190,6 +196,7 @@
 				596B8BDC24A39A6E007DA0FF /* LaunchScreen.storyboard in Resources */,
 				596B8BD924A39A6E007DA0FF /* Assets.xcassets in Resources */,
 				596B8BD724A39A6E007DA0FF /* Main.storyboard in Resources */,
+				597219DD24A61819004BBDB9 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				597219DF24A618C9004BBDB9 /* SecondViewController.swift in Sources */,
 				596B8BEF24A39BE3007DA0FF /* Note.swift in Sources */,
 				596B8BD424A39A6E007DA0FF /* ViewController.swift in Sources */,
 				596B8BEC24A39BCD007DA0FF /* AttachmentHandler.swift in Sources */,
