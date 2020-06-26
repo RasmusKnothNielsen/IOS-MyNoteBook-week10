@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,16 @@
 		596B8BD724A39A6E007DA0FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 596B8BD524A39A6E007DA0FF /* Main.storyboard */; };
 		596B8BD924A39A6E007DA0FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 596B8BD824A39A6E007DA0FF /* Assets.xcassets */; };
 		596B8BDC24A39A6E007DA0FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 596B8BDA24A39A6E007DA0FF /* LaunchScreen.storyboard */; };
+		596B8BEC24A39BCD007DA0FF /* AttachmentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596B8BEB24A39BCD007DA0FF /* AttachmentHandler.swift */; };
+		596B8BEF24A39BE3007DA0FF /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596B8BEE24A39BE3007DA0FF /* Note.swift */; };
+		596B8BF224A39BFB007DA0FF /* LocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596B8BF124A39BFB007DA0FF /* LocalStorage.swift */; };
+		596B8BF424A39C0B007DA0FF /* CloudStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596B8BF324A39C0B007DA0FF /* CloudStorage.swift */; };
+		CA9E943715855CE0E19FC40E /* Pods_IOS_MyNoteBook_week10.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C76BB31C5D7CEBF21C571E /* Pods_IOS_MyNoteBook_week10.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3721BFE9B0DF1037BE417270 /* Pods-IOS-MyNoteBook-week10.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS-MyNoteBook-week10.debug.xcconfig"; path = "Target Support Files/Pods-IOS-MyNoteBook-week10/Pods-IOS-MyNoteBook-week10.debug.xcconfig"; sourceTree = "<group>"; };
+		48C76BB31C5D7CEBF21C571E /* Pods_IOS_MyNoteBook_week10.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOS_MyNoteBook_week10.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		596B8BCC24A39A6E007DA0FF /* IOS-MyNoteBook-week10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS-MyNoteBook-week10.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		596B8BCF24A39A6E007DA0FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		596B8BD124A39A6E007DA0FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,11 @@
 		596B8BD824A39A6E007DA0FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		596B8BDB24A39A6E007DA0FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		596B8BDD24A39A6E007DA0FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		596B8BEB24A39BCD007DA0FF /* AttachmentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentHandler.swift; sourceTree = "<group>"; };
+		596B8BEE24A39BE3007DA0FF /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		596B8BF124A39BFB007DA0FF /* LocalStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorage.swift; sourceTree = "<group>"; };
+		596B8BF324A39C0B007DA0FF /* CloudStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudStorage.swift; sourceTree = "<group>"; };
+		C5249D2BCD5D3CA52DAF1CE7 /* Pods-IOS-MyNoteBook-week10.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS-MyNoteBook-week10.release.xcconfig"; path = "Target Support Files/Pods-IOS-MyNoteBook-week10/Pods-IOS-MyNoteBook-week10.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA9E943715855CE0E19FC40E /* Pods_IOS_MyNoteBook_week10.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44C2AF3007E65A280837704A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3721BFE9B0DF1037BE417270 /* Pods-IOS-MyNoteBook-week10.debug.xcconfig */,
+				C5249D2BCD5D3CA52DAF1CE7 /* Pods-IOS-MyNoteBook-week10.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		596B8BC324A39A6E007DA0FF = {
 			isa = PBXGroup;
 			children = (
 				596B8BCE24A39A6E007DA0FF /* IOS-MyNoteBook-week10 */,
 				596B8BCD24A39A6E007DA0FF /* Products */,
+				44C2AF3007E65A280837704A /* Pods */,
+				EF82A27283CC81704D1F0DC3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +80,9 @@
 		596B8BCE24A39A6E007DA0FF /* IOS-MyNoteBook-week10 */ = {
 			isa = PBXGroup;
 			children = (
+				596B8BF024A39BF0007DA0FF /* storage */,
+				596B8BED24A39BDA007DA0FF /* model */,
+				596B8BEA24A39B9F007DA0FF /* filehandler */,
 				596B8BCF24A39A6E007DA0FF /* AppDelegate.swift */,
 				596B8BD124A39A6E007DA0FF /* SceneDelegate.swift */,
 				596B8BD324A39A6E007DA0FF /* ViewController.swift */,
@@ -67,6 +94,39 @@
 			path = "IOS-MyNoteBook-week10";
 			sourceTree = "<group>";
 		};
+		596B8BEA24A39B9F007DA0FF /* filehandler */ = {
+			isa = PBXGroup;
+			children = (
+				596B8BEB24A39BCD007DA0FF /* AttachmentHandler.swift */,
+			);
+			path = filehandler;
+			sourceTree = "<group>";
+		};
+		596B8BED24A39BDA007DA0FF /* model */ = {
+			isa = PBXGroup;
+			children = (
+				596B8BEE24A39BE3007DA0FF /* Note.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		596B8BF024A39BF0007DA0FF /* storage */ = {
+			isa = PBXGroup;
+			children = (
+				596B8BF124A39BFB007DA0FF /* LocalStorage.swift */,
+				596B8BF324A39C0B007DA0FF /* CloudStorage.swift */,
+			);
+			path = storage;
+			sourceTree = "<group>";
+		};
+		EF82A27283CC81704D1F0DC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48C76BB31C5D7CEBF21C571E /* Pods_IOS_MyNoteBook_week10.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +134,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 596B8BE024A39A6E007DA0FF /* Build configuration list for PBXNativeTarget "IOS-MyNoteBook-week10" */;
 			buildPhases = (
+				B84DECCA2E6EF0E8A748BE74 /* [CP] Check Pods Manifest.lock */,
 				596B8BC824A39A6E007DA0FF /* Sources */,
 				596B8BC924A39A6E007DA0FF /* Frameworks */,
 				596B8BCA24A39A6E007DA0FF /* Resources */,
+				0E63B4CAFE2879764DD8AA09 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,12 +195,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E63B4CAFE2879764DD8AA09 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IOS-MyNoteBook-week10/Pods-IOS-MyNoteBook-week10-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IOS-MyNoteBook-week10/Pods-IOS-MyNoteBook-week10-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IOS-MyNoteBook-week10/Pods-IOS-MyNoteBook-week10-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B84DECCA2E6EF0E8A748BE74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IOS-MyNoteBook-week10-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		596B8BC824A39A6E007DA0FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				596B8BEF24A39BE3007DA0FF /* Note.swift in Sources */,
 				596B8BD424A39A6E007DA0FF /* ViewController.swift in Sources */,
+				596B8BEC24A39BCD007DA0FF /* AttachmentHandler.swift in Sources */,
+				596B8BF224A39BFB007DA0FF /* LocalStorage.swift in Sources */,
+				596B8BF424A39C0B007DA0FF /* CloudStorage.swift in Sources */,
 				596B8BD024A39A6E007DA0FF /* AppDelegate.swift in Sources */,
 				596B8BD224A39A6E007DA0FF /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +390,7 @@
 		};
 		596B8BE124A39A6E007DA0FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3721BFE9B0DF1037BE417270 /* Pods-IOS-MyNoteBook-week10.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +409,7 @@
 		};
 		596B8BE224A39A6E007DA0FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5249D2BCD5D3CA52DAF1CE7 /* Pods-IOS-MyNoteBook-week10.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
